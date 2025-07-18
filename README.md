@@ -1,8 +1,8 @@
 # Examen de Código Java
 
-Este repositorio contiene los ejercicios de la Kata para la aplicación de la vacante en **Investigación y Desarrollo**, para el puesto de *Ing. de Software Jr.*.
+Este repositorio contiene los ejercicios de la Kata para la aplicación de la vacante en **Investigación y Desarrollo**, para el puesto de *Ing. de Software Jr.*
 
-Adicional, se implementó una API REST como alternativa para exponer y consumir los ejercicios básicos de lógica desarrollados en Java, usando Spring Boot. Esto permite acceder a las funcionalidades mediante peticiones HTTP.
+Adicional, se propuso una API REST para exponer y consumir los ejercicios básicos de lógica desarrollados en Java, usando Spring Boot. Esto permite acceder a las funcionalidades mediante peticiones HTTP.
 
 ## Ejercicios Incluidos
 
