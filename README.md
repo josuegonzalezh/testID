@@ -2,7 +2,7 @@
 
 Este repositorio contiene los ejercicios de la Kata para la aplicación de la vacante en **Investigación y Desarrollo**, para el puesto de *Ing. de Software Jr.*.
 
-Adicional, se propuso una API REST para resolver estos ejercicios básicos de lógica implementados en Java, usando Spring Boot.
+Adicional, se implementó una API REST como alternativa para exponer y consumir los ejercicios básicos de lógica desarrollados en Java, usando Spring Boot. Esto permite acceder a las funcionalidades mediante peticiones HTTP.
 
 ## Ejercicios Incluidos
 
@@ -17,6 +17,25 @@ Adicional, se propuso una API REST para resolver estos ejercicios básicos de l�
 - Maven
 - JUnit 5
 - MockMvc para pruebas de integración
+
+## Estructura del Proyecto
+```
+src/
+├── main/
+│   ├── java/
+│   │   └── com/testoid/apiejercicios/
+│   │       ├── controller/                    # Controladores REST
+│   │       ├── dto/                           # Clases DTO
+│   │       ├── service/                       # Lógica principal (funciones) de los ejercicios
+│   │       └── ApiEjerciciosApplication.java
+│   └── resources/
+│       └── application.properties
+├── test/
+│   └── java/
+│       └── com/testoid/apiejercicios/
+│           ├── controller/                    # Pruebas unitarias de endpoints
+│           └── service/                       # Pruebas unitarias de las funciones
+```
 
 ## Autor
 
